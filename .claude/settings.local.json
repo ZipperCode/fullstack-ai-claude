@@ -4,7 +4,8 @@
       "Skill(skill-creator)",
       "Bash(dir \"d:\\\\Project\\\\GitHub\\\\fullstack-ai-claude\\\\.claude\\\\skills\\\\contract-sync\" /b)",
       "Bash(git add .claude/skills/)",
-      "Bash(git add .claude/settings.local.json)"
+      "Bash(git add .claude/settings.local.json)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat\\(skills\\): optimize 10 managed skills with comprehensive content\n\nEnhanced skills following skill-creator best practices:\n- Expanded frontmatter descriptions with clear triggering contexts\n- Removed non-standard ''allowed-tools'' field from all skills\n- Added detailed examples, workflows, and decision-making guidance\n- Improved code examples with good/bad comparisons\n- Added comprehensive checklists and best practices\n- Implemented progressive disclosure for contract-sync skill\n\nSkills optimized:\n- commit-messages: Enhanced with comprehensive patterns and workflows\n- contract-sync: Split into main + references/tools-setup.md \\(576→277 lines\\)\n- docker-deployment: Added multi-stage builds and security hardening\n- documentation: Comprehensive API, component, and ADR templates\n- mongodb-optimization: Detailed indexing and query optimization\n- performance-review: Full-stack performance with specific targets\n- python-best-practices: PEP 8, type hints, and FastAPI patterns\n- security-review: Complete OWASP Top 10 coverage with examples\n- testing-strategy: Test pyramid with pytest, Jest, Playwright\n- vue-best-practices: Composition API, Pinia, and performance\n\nEach skill now provides:\n- Clear \"when to use\" guidance in description\n- Practical, actionable content with code examples\n- Common patterns and anti-patterns\n- Troubleshooting guidance where applicable\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
